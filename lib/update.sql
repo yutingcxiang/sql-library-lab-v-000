@@ -1,3 +1,3 @@
 UPDATE characters 
 SET characters.species = "Martian"
-HAVING MAX(characters.id)
+WHERE characters.id = 8;
