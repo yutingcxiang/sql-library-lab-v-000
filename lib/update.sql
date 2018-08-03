@@ -1,3 +1,3 @@
 UPDATE characters 
-SET character.species = "Martian"
+SET characters.species = "Martian"
 HAVING MAX(characters.id)
